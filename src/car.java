@@ -10,9 +10,7 @@ class car extends vehicle {
     }
 
     public String toString() {
-        return ("\n========================\n"+Type+
-                "\n========================"
-                +super.toString())+
+        return (super.toString())+
                 "\n========================";
     }
 }

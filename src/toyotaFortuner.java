@@ -1,6 +1,11 @@
-public class toyotaFortuner {
-    public static void main(String[] args) {
-        car toyota = new car("Toyota Fortuner");
-        System.out.println(toyota.toString());
+class toyotaFortuner extends car {
+    toyotaFortuner() {
+        super("Toyota Fortuner");
+    }
+
+    public String toString() {
+        return ("\n========================\n"+Type+
+                "\n========================"
+                +super.toString());
     }
 }
